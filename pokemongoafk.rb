@@ -71,10 +71,10 @@ def main path, speed, out
 end
 
 command = Cri::Command.define do
-  name        'pokigoafk'
-  usage       'pokigoafk [options] [gpx path] [output file]'
+  name        'pokemongoafk.rb'
+  usage       'ruby pokemongoafk.rb [options] [gpx path] [output file]'
   summary     'adds timestamps to a generated gpx file'
-  description 'pokigoafk is a tool designed to add timestamps into generated gpx files. users then can use these files to bot around pokemon go using xcode.'
+  description 'pokemongoafk is a tool designed to add timestamps into generated gpx files. users then can use these files to bot around pokemon go using xcode.'
 
   required :s, :speed, 'the speed to travel between points, in meters per second (ex: 2.7)'
   flag :h, :help, 'shows this help screen'
