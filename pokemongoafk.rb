@@ -37,9 +37,10 @@ def main path, speed, out
   
   doc.remove_namespaces! # stupid namespaces always slowing me down
   
-  # avg male = 2.7 m/s 
-  # avg female = 3.4 m/s
+  # avg male = 3.7 m/s 
+  # avg female = 2.9 m/s
   # usain bolt = 12.4 m/s
+  # theorhetical max to get credit for eggs = 4.1 m/s
   
   t = Time.new()
   
@@ -76,7 +77,7 @@ command = Cri::Command.define do
   summary     'adds timestamps to a generated gpx file'
   description 'pokemongoafk is a tool designed to add timestamps into generated gpx files. users then can use these files to bot around pokemon go using xcode.'
 
-  required :s, :speed, 'the speed to travel between points, in meters per second (ex: 2.7)'
+  required :s, :speed, 'the speed to travel between points, in meters per second (ex: 3.7)'
   flag :h, :help, 'shows this help screen'
   
   run do |opts, args|
