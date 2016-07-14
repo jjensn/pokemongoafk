@@ -2,7 +2,7 @@
 generate timestamps for gpx files, allowing you to use xcode + gps spoofing to go anywhere
 
 Usage:
-ruby pokemongoafk -s [speed] [gpx file] [output file]
+ruby pokemongoafk.rb -s [speed] [gpx file] [output file]
 
 Notes:
 - The XML parsing was only tested against GPX files generated @ http://www.gpsvisualizer.com/draw/
